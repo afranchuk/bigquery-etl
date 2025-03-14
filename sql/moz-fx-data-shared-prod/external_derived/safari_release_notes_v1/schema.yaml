@@ -1,0 +1,81 @@
+fields:
+- name: submission_date
+  type: DATE
+  mode: NULLABLE
+  description: Submission Date
+- name: browser_release_notes_url
+  type: STRING
+  mode: NULLABLE
+  description: Browser Release Notes URL
+- name: browser_release_date
+  type: DATE
+  mode: NULLABLE
+  description: Browser Release Date
+- name: browser_version
+  type: STRING
+  mode: NULLABLE
+  description: Browser Version - For example, 18.3, or 18.4
+- name: browser_major_version
+  type: STRING
+  mode: NULLABLE
+  description: Browser Major Version - For example, if version is 18.4, major version is 18
+- name: browser_minor_version
+  type: STRING
+  mode: NULLABLE
+  description: Browser Minor Version - For example, if version is 18.4, minor version is 4
+- name: browser_release_overview
+  type: STRING
+  mode: NULLABLE
+  description: Browser Release Overview
+- name: accessibility_notes
+  type: STRING
+  mode: NULLABLE
+  description: Accessibility Notes
+- name: browser_notes
+  type: STRING
+  mode: NULLABLE
+  description: Browser Notes
+- name: canvas_notes
+  type: STRING
+  mode: NULLABLE
+  description: Canvas Notes
+- name: css_notes
+  type: STRING
+  mode: NULLABLE
+  description: CSS Notes
+- name: editing_notes
+  type: STRING
+  mode: NULLABLE
+  description: Editing Notes
+- name: network_notes
+  type: STRING
+  mode: NULLABLE
+  description: Networking Notes
+- name: pdf_notes
+  type: STRING
+  mode: NULLABLE
+  description: PDF Notes
+- name: form_notes
+  type: STRING
+  mode: NULLABLE
+  description: Form Notes
+- name: rendering_notes
+  type: STRING
+  mode: NULLABLE
+  description: Rendering Notes
+- name: security_notes
+  type: STRING
+  mode: NULLABLE
+  description: Security Notes
+- name: svg_notes
+  type: STRING
+  mode: NULLABLE
+  description: SVG Notes
+- name: web_animation_notes
+  type: STRING
+  mode: NULLABLE
+  description: Web Animation Notes
+- name: web_api_notes
+  type: STRING
+  mode: NULLABLE
+  description: Web API Notes

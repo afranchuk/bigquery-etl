@@ -1,0 +1,19 @@
+friendly_name: Safari Release Notes
+description: |-
+  Pull Safari browser release notes into BQ
+owners:
+- kwindau@mozilla.com
+labels:
+  incremental: true
+  owner1: kwindau
+scheduling:
+  dag_name: bqetl_browser_release_notes
+bigquery:
+  time_partitioning:
+    type: day
+    field: submission_date
+    require_partition_filter: false
+    expiration_days: null
+  range_partitioning: null
+references: {}
+require_column_descriptions: true
