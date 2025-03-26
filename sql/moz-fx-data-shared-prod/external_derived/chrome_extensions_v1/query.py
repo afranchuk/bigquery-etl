@@ -257,6 +257,9 @@ def main():
         # Add the top level link to already processed
         links_already_processed.append(current_link)
 
+    #Remove duplicates
+    results_df = results_df.drop_duplicates()
+
     # Write data to CSV in GCS
     final_results_fpath = GCS_BUCKET + RESULTS_FPATH % (logical_dag_date_string)
     results_df.to_csv(final_results_fpath, index=False)
